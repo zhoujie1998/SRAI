@@ -1,0 +1,6 @@
+<launch>
+<node  name="sr_steering_engine_node"   pkg="sr_wheel_drive"   type="sr_steering_engine_node"   output="screen">
+    <param name="Ports"    type = "str"    value="/dev/ttyUSB0"/>
+</node>
+</launch>
+

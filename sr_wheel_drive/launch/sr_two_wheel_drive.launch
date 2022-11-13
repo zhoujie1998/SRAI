@@ -1,0 +1,6 @@
+<launch>
+<node  name="two_ZLAC8015D_485_node"   pkg="sr_wheel_drive"   type="two_ZLAC8015D_485_node"   output="screen">
+    <param name="Ports"    type = "str"    value="/dev/ttyUSB0"/>
+</node>
+</launch>
+
