@@ -1,0 +1,9 @@
+<launch>
+<!--科室路线参数文件-->
+<rosparam file="$(find test_navigation)/param/department.yaml" command="load" />
+<!--大厅路线参数文件-->
+<rosparam file="$(find test_navigation)/param/hall.yaml" command="load"/>
+<!--站点参数文件-->
+<rosparam file="$(find test_navigation)/param/GoSite.yaml" command="load"/>
+<node  name="sr_task_action_server"   pkg="test_navigation"  type="sr_task_action_server_node"  output="screen"/>
+</launch>

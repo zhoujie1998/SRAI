@@ -1,0 +1,24 @@
+<launch>
+  <!--加载环境世界Gazebo模型-->
+  <arg name="world_name" value="$(find bobac2_description)/world/room.world"/>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world_name)" />
+    <!--arg name="use_sim_time" value="true"/-->
+  </include>
+  
+  <!--加载机器人Gazebo模型-->
+  <!--param name="robot_description" textfile="$(find bobac2_description)/urdf/gazebo_bobac2_description.urdf" />
+  <node
+    name="spawn_model"
+    pkg="gazebo_ros"
+    type="spawn_model"
+    args="-param robot_description -urdf -model bobac2_description"
+    output="screen" />
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+      <param name="rate" value="50"/>	
+  </node>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher">
+      <param name="publish_frequency" type="double" value="50.0" />		  
+  </node-->
+  
+</launch>

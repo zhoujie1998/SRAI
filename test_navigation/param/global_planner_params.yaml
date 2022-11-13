@@ -1,0 +1,14 @@
+GlobalPlanner:
+ old_navfn_behavior: false
+ use_quadratic: true
+ use_dijkstra: true
+ allow_unknown: false #指定是否允许规划器创建穿越未知空间的平面。若为false，cost_map中track_unknown_space参数需设置为true
+ planner_window_x: 0.0
+ planner_window_y: 0.0
+ default_tolerance: 0.0
+ publish_scale: 100
+ planner_costmap_publish_frequency: 0.0
+ lethal_cost: 253
+ neutral_cost: 66
+ cost_factor: 0.55
+ publish_potential: true

@@ -1,0 +1,18 @@
+<launch>
+<!--amcl定位算法-->
+<include file="$(find test_navigation)/launch/amcl.launch"/>
+
+<!--地图加载-->
+<include file="$(find test_navigation)/launch/map_server.launch"/>
+
+<!--导航框架-->
+<include file="$(find test_navigation)/launch/move_base.launch"/>
+
+<!--gazebo仿真-->
+<include file="$(find bobac2_description)/launch/gazebo.launch"/>
+
+<!--任务Task服务端-->
+<include file="$(find test_navigation)/launch/goalPose.launch"/>
+
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find test_navigation)/rviz/app.rviz" required="true"/>
+</launch>

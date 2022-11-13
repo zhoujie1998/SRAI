@@ -1,0 +1,48 @@
+#路线 点位数
+Target_Point_Number: 4
+#路线
+hall:
+
+    positionX_0: 1.0
+    positionY_0: 1.0
+    positionZ_0: 0.0
+    orientationX_0: 0.0
+    orientationY_0: 0.0
+    orientationZ_0: 0.0
+    orientationW_0: 1.0
+
+    #目标点_1位姿
+    positionX_1: 1.0
+    positionY_1: 2.0
+    positionZ_1: 0.0
+    orientationX_1: 0.0
+    orientationY_1: 0.0
+    orientationZ_1: 0.0
+    orientationW_1: 1.0
+
+    #目标点_2位姿
+    positionX_2: 1.0
+    positionY_2: 3.0
+    positionZ_2: 0.0
+    orientationX_2: 0.0
+    orientationY_2: 0.0
+    orientationZ_2: 0.0
+    orientationW_2: 1.0
+
+    #目标点_3位姿
+    positionX_3: 1.0
+    positionY_3: 1.0
+    positionZ_3: 0.0
+    orientationX_3: 0.0
+    orientationY_3: 0.0
+    orientationZ_3: 0.0
+    orientationW_3: 1.0
+
+    #目标点_4位姿
+    positionX_4: 1.0
+    positionY_4: 3.0
+    positionZ_4: 0.0
+    orientationX_4: 0.0
+    orientationY_4: 0.0
+    orientationZ_4: 0.0
+    orientationW_4: 1.0

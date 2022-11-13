@@ -1,0 +1,19 @@
+home:
+    #充电桩位姿
+    positionX: 0
+    positionY: 0
+    positionZ: 0.0
+    orientationX: 0.0
+    orientationY: 0.0
+    orientationZ: 0.0
+    orientationW: 1.0
+
+disinfection_station:
+    #换液站位姿
+    positionX: 0.5
+    positionY: 0.5
+    positionZ: 0.0
+    orientationX: 0.0
+    orientationY: 0.0
+    orientationZ: 0.0
+    orientationW: 1.0

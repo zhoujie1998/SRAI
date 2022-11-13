@@ -1,0 +1,6 @@
+image: /home/goudan/sr_app/src/test_navigation/map/room.pgm
+resolution: 0.05
+origin: [-7.69301, -49.84, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196

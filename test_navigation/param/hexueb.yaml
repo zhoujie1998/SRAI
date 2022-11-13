@@ -1,0 +1,38 @@
+#路线 点位数
+Target_Point_Number: 5
+hexueb:
+  positionX_1: -0.5
+  positionY_1: -1
+  positionZ_1: 0
+  orientationX_1: 0
+  orientationY_1: 0
+  orientationZ_1: 0
+  orientationW_1: 1
+  positionX_2: -0.5
+  positionY_2: -1.5
+  positionZ_2: 0
+  orientationX_2: 0
+  orientationY_2: 0
+  orientationZ_2: 0
+  orientationW_2: 1
+  positionX_3: -0.5
+  positionY_3: -2
+  positionZ_3: 0
+  orientationX_3: 0
+  orientationY_3: 0
+  orientationZ_3: 0
+  orientationW_3: 1
+  positionX_4: -0.5
+  positionY_4: -1.5
+  positionZ_4: 0
+  orientationX_4: 0
+  orientationY_4: 0
+  orientationZ_4: 0
+  orientationW_4: 1
+  positionX_5: -0.5
+  positionY_5: -1
+  positionZ_5: 0
+  orientationX_5: 0
+  orientationY_5: 0
+  orientationZ_5: 0
+  orientationW_5: 1
