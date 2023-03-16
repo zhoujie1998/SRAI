@@ -1,0 +1,8 @@
+<launch>
+<node  name="sr_task_action_server_node"   pkg="sr_navigation"  type="sr_task_action_server_node"  output="screen">
+    <!--站点名称-->
+    <param name="home_name"      type="str"  value="home1" />
+    <param name="charge_name"   type="str"  value="home1" />
+    <param name="disinfection_name"   type="str"  value="disinfection" />
+</node>
+</launch>

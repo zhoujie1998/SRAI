@@ -1,0 +1,58 @@
+#wayname
+hall1:
+	#路线 点位数
+    Target_Point_Number: 6
+
+    #目标点_0位姿
+    positionX_0: 10.737
+    positionY_0: -14.484
+    positionZ_0: 0.0
+    orientationX_0: 0.0
+    orientationY_0: 0.0
+    orientationZ_0: 1.0
+    orientationW_0: -0.000
+
+    #目标点_1位姿
+    positionX_1: 21.254
+    positionY_1: -2.171
+    positionZ_1: 0.0
+    orientationX_1: 0.0
+    orientationY_1: 0.0
+    orientationZ_1: 0.0
+    orientationW_1: 1.0
+
+    #目标点_2位姿
+    positionX_2: 13.618
+    positionY_2: 2.731
+    positionZ_2: 0.0
+    orientationX_2: 0.0
+    orientationY_2: 0.0
+    orientationZ_2: 1.0
+    orientationW_2: 0.019
+
+    #目标点_3位姿
+    positionX_3: 17.579
+    positionY_3: 7.674
+    positionZ_3: 0.0
+    orientationX_3: 0.0
+    orientationY_3: 0.0
+    orientationZ_3: 0.673
+    orientationW_3: 0.740
+    
+    #目标点_4位姿
+    positionX_4: 0.605
+    positionY_4: 0
+    positionZ_4: 0.0
+    orientationX_4: 0.0
+    orientationY_4: 0.0
+    orientationZ_4: -0.723
+    orientationW_4: 0.690
+
+    #目标点_5位姿
+    positionX_5: 0.312
+    positionY_5: -10.681
+    positionZ_5: 0.0
+    orientationX_5: 0.0
+    orientationY_5: 0.0
+    orientationZ_5: -0.707
+    orientationW_5: 0.707

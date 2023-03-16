@@ -1,0 +1,10 @@
+prefix=/home/srai/white_car_ws/src/sr_serial/modbus
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: modbus
+Description: Modbus library
+Version: 3.1.4
+Libs: -L${libdir} -lmodbus
+Cflags: -I${includedir}/modbus

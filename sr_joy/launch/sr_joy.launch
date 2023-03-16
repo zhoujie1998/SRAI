@@ -1,0 +1,14 @@
+<launch>
+<node  name="joy_node"     pkg="joy"      type="joy_node"   output="screen">
+    <param name="dev"    value="/dev/input/js0"/>     <!--手柄端口号-->
+</node>
+<node  name="sr_joy_node"  pkg="sr_joy"   type="sr_joy_node"  output="screen">
+    <param name="add_key"        type = "int"    value="5"/>   <!--线速度加档按键-->
+    <param name="reduce_key"     type = "int"    value="4"/>   <!--线速度减档按键-->
+    <param name="liear_x_key"    type = "int"    value="1"/>   <!--线速度按键-->
+    <param name="angular_z_key"  type = "int"    value="3"/>   <!--角速度按键-->
+	<param name="topic_cmd_vel"  type = "str"    value="ctrl_cmd_vel"/>   <!--速度话题名-->
+    <param name="frequency"      type = "int"    value="40"/>  <!--/cmd_vel发布频率-->
+</node>
+</launch>
+

@@ -1,0 +1,5 @@
+<launch>
+<node  name="sr_screen_node"     pkg="sr_screen"      type="sr_screen_node"  respawn="true"  output="screen">
+<param name="Ports"    type = "str"    value="/dev/SCREEN"/>
+</node>
+</launch>

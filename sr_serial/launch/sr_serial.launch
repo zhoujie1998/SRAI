@@ -1,0 +1,7 @@
+<launch>
+<node  name="sr_serial_node"     pkg="sr_serial"      type="sr_serial_node"  respawn="true"  output="screen">
+     <param name="Ports_L"    type = "str"    value="/dev/ttyUSB0"/>
+     <param name="Ports_R"    type = "str"    value="/dev/ttyUSB1"/>
+</node>
+</launch>
+

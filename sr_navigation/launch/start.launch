@@ -1,0 +1,7 @@
+<launch>
+  <!--carto纯定位-->
+  <include file="$(find cartographer_ros)/launch/srbot_wj716N_localization.launch"/>
+  
+  <include file="$(find sr_navigation)/launch/move_base.launch"/>
+  <include file="$(find sr_navigation)/launch/goalPose.launch"/>
+</launch>

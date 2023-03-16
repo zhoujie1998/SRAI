@@ -1,0 +1,14 @@
+#wayname
+home2:   
+	#路线 点位数
+    Target_Point_Number: 1
+
+    #目标点_0位姿
+    positionX_0: -5
+    positionY_0: 3
+    positionZ_0: 0.0
+    orientationX_0: 0.0
+    orientationY_0: 0.0
+    orientationZ_0: 0.0
+    orientationW_0: 1.0
+

@@ -1,0 +1,19 @@
+<launch>
+
+<!--amcl定位算法-->
+<include file="$(find test_navigation)/launch/amcl.launch"/>
+
+<!--地图加载-->
+<include file="$(find test_navigation)/launch/map_server.launch"/>
+
+<!--导航框架-->
+<include file="$(find test_navigation)/launch/move_base.launch"/>
+
+<!--gazebo仿真-->
+<include file="$(find bobac2_description)/launch/gazebo.launch"/>
+<arg name="routename" default="A" />
+<rosparam file="$(find sr_nfc)/param/A.yaml" command="load" />
+<!--node name="sr_nfc_node" pkg="sr_nfc" type="sr_nfc_node" output="screen">
+    <param name="RouteName"        type = "str"    value="$(arg routename)"/>
+</node-->
+</launch>

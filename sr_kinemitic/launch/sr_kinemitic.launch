@@ -1,0 +1,7 @@
+<launch>
+<node  name="sr_kinemitic_node"  pkg="sr_kinemitic"   type="sr_kinemitic_node"  output="screen">
+    <param name="wheel_spacing"         type="double"  value="0.355" />
+    <param name="wheel_radius"         type="double"  value="0.085" />
+</node>
+</launch>
+
