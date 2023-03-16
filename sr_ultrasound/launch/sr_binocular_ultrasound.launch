@@ -1,0 +1,6 @@
+<launch>
+<node  name="binocular_ultrasound_node"   pkg="sr_ultrasound"   type="binocular_ultrasound_node"   output="screen">
+    <param name="Ports"    type = "str"    value="/dev/EAT"/>
+</node>
+<node  name="ultrasound_topic_publish_node"   pkg="sr_ultrasound"   type="ultrasound_topic_publish_node"   output="screen"/>
+</launch>

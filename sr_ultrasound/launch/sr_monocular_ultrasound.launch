@@ -1,0 +1,16 @@
+<launch>
+<!-- <node  name="monocular_ultrasound_node"   pkg="sr_ultrasound"   type="monocular_ultrasound_node"   output="screen">
+    <param name="Ports"    type = "str"    value="/dev/ttyUSB0"/>
+</node> -->
+<node  name="sonar_topic_pub_node"   pkg="sr_ultrasound"   type="sonar_topic_pub_node"   output="screen">
+    <param name="pub_topic_sonar"         type = "str"      value="/sonar"/>
+    <param name="frame_id"         type = "str"      value="/sonar"/>
+    <param name="use_kalman"      type = "bool"       value="false"/>
+    <param name="ultrasound_num"      type = "int"       value="12"/>
+    <param name="min_range"           value="0.25"/>
+    <param name="max_range"            value="0.5"/>
+    <param name="field_of_view"       value="0.8"/>
+    <param name="Q"                  value="0.005"/> <!--过程噪声-->
+    <param name="R"                  value="0.1"/>  <!--预测噪声，增加将更相信预测值，反之更加相信观测值-->
+</node>
+</launch>
